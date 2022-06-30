@@ -2,6 +2,7 @@ Welcome to the Data Scientist take home exercise repo!
 
 You will find one csv (dummy_data.csv) depicting our app’s backend live data. It contains permits’ statuses such as user requests, closures once the work has been completed etc…
 
+You can use any programing language (our preffered and used one at siteAssist being Python).
 
 ### First Task
 > **Your first task is be to infer at which state within the permit cycle a record is.**
