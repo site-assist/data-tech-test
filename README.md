@@ -20,5 +20,5 @@ You will find one csv (dummy_data.csv) depicting our app’s backend live data. 
 
 ### Additional question
 
-At siteAssist, we deal with a lot of text data (answers to permit questions, reason for cancelling/amending/rejecting a permit). \
+At siteAssist, we deal with a lot of text data (answers to permit questions, reason for cancelling/amending/rejecting a permit).
 > **How would you pre-process this data to be used for both modelling and observational analysis?**
