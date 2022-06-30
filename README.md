@@ -1,4 +1,4 @@
-Welcome to the Data Scientist take home repo!
+Welcome to the Data Scientist take home exercise repo!
 
 You will find one csv (dummy_data.csv) depicting our app’s backend live data. We are looking at the permits table which captures permits’ statuses such as user requests, closing once the work has been completed etc…
 
