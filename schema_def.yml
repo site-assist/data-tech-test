@@ -1,0 +1,70 @@
+- name: sa_permits
+        columns:
+          - name: id
+            description: representing the record id
+            type: int
+
+          - name: project_id
+            description: site within an organisation
+            type: int
+
+          - name: template_id
+            description: permit template reference
+            type: int
+
+          - name: name
+            description: permit Name
+            type: varchar
+
+          - name: status
+            description: permit state
+            type: varchar
+
+          - name: starts_on
+            description: when was the permit first submitted
+            type: timestamp
+
+          - name: ends_on
+            description: when is the permit expiring
+            type: timestamp
+
+          - name: created_on
+            description: when was the record added to the table
+            type: timestamp
+
+          - name: modified_on
+            description: when was the permit last modified
+            type: timestamp
+
+          - name: extension_ends_on
+            description: when is the permit expiring after an extension
+            type: timestamp
+
+          - name: requested_by
+            description: user_id who is owning the permit (doing the works)
+            type: int
+
+          - name: approved_by
+            description: user_id who approved the permit
+            type: int
+
+          - name: rejected_by
+            description: user_id who rejected the permit
+            type: int
+
+          - name: canceled_by
+            description: user_id who rejected the permit (if any)
+            type: int
+
+          - name: initiated_by
+            description: user_id who requested the permit
+            type: int
+
+          - name: location_id
+            description: id for site location
+            type: int
+
+
+          - name: organisation_id
+            description: id for the organisation (company operating the works)
+            type: int
