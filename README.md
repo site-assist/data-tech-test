@@ -1,11 +1,22 @@
 Welcome to the Data Scientist take home exercise repo!
 
-You will find one csv (dummy_data.csv) depicting our app’s backend live data. It contains permits’ statuses such as user requests, closures once the work has been completed etc…
+It contains few files:
 
-You can use any programing language (our preffered and used one at siteAssist being Python).
+- **dummy_data.csv** depicting our app’s backend live data. It has permits’ statuses such as user requests, closures once the work has been completed etc…
+- **schema_def.txt**: permit table column names' definitions
+
+### Few guidelines
+
+You can use any programing language (our preferred one at siteAssist being **Python**).
+
+The purpose of this exercise is to understand how you approach and think through a given task. 
+
+Explain why you are using a certain method to answer a question? What was your thought process to arrive there? What are the pros/cons with your answers?
+
+Also, if you were given more time what would be the logical next steps to make your answers more robust?
 
 ### First Task
-> **Your first task is be to infer at which state within the permit cycle a record is.**
+> **Your first task is to infer at which state within the permit cycle a record is.**
 
 ***What we expect?***
 1. Analyse the dataset to the best of your capacity. Don’t be afraid to challenge it if you feel it is not complete. 
@@ -16,8 +27,11 @@ You can use any programing language (our preffered and used one at siteAssist be
 > **Your second task is to define a permit cycle funnel along with some success metrics to measure it.**
 
 ***What we expect?***
-1. From this funnel, we should be able to label our data. It can then be used for some DS projects as well as for internal reporting. Try to think of a holistic view first before going into more details.
-2. From your derived metrics, what would you recommend as a first DS project?
+1. Task 1 helped you understand a permit's "life cycle". With those states:
+   - you will now construct a "golden" path where success can be measured with your metrics.
+   - each path's "milestones" can be a collections of states. Try to think of a holistic view first before going into more details.
+2. We should be able to label our data with you funnel. It can then be used for some DS projects as well as for internal reporting.
+3. From your derived metrics, what would you recommend as a first DS project?
 
 ### Additional question
 
