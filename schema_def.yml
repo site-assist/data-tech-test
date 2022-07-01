@@ -21,7 +21,7 @@
             type: varchar
 
           - name: starts_on
-            description: start time of the permit
+            description: start time of the permit request
             type: timestamp
 
           - name: ends_on
