@@ -21,11 +21,11 @@
             type: varchar
 
           - name: starts_on
-            description: when was the permit first submitted
+            description: statrt time of the permit
             type: timestamp
 
           - name: ends_on
-            description: when is the permit expiring
+            description: when the permit is expiring
             type: timestamp
 
           - name: created_on
