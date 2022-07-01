@@ -64,7 +64,6 @@
             description: id for site location
             type: int
 
-
           - name: organisation_id
             description: id for the organisation (company operating the works)
             type: int
