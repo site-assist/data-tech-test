@@ -2,7 +2,7 @@ Welcome to the Data Scientist take home exercise repo!
 
 It contains few files:
 
-- **dummy_data.csv** depicting our app’s backend live data. It has permits’ statuses such as user requests, closures once the work has been completed etc…
+- **dummy_permit_log.csv** depicting our app’s backend live data. It has permits’ statuses such as user requests, closures once the work has been completed etc…
 - **schema_def.yml**: permit table column names' definitions
 
 ### Few guidelines
