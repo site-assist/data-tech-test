@@ -4,6 +4,7 @@ It contains few files:
 
 - **dummy_permit_log.csv** depicting our app’s backend live data. It has permits’ statuses such as user requests, closures once the work has been completed etc…
 - **glitched_data.csv**: similar permit log data as dummy_permit_log.csv but with a slight glitch (see Third Task)
+- **schema_def_yml**: csvs columns' definitions
 
 ### Few guidelines
 
