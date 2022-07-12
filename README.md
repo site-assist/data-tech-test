@@ -25,8 +25,10 @@ task is performed (i.e. using a ladder, digging a hole, etc...).
 
 When such a task is performed, the site worker fills out a questionnaire depicting what needs to be done (permit) and 
 requests a manager approval. 
-Once the approval is granted, he can start conducting the works described in the permit. 
-He will need to wait for his work to be reviewed before closing an open permit. 
+If the permit is rejected, it will end the process here. No further action can be taken on a Rejected permit and the User will not be authorised to carry out the requested work.
+If the approval is granted, he can start conducting the works described in the permit. Once the work done, he will need to wait for his work to be reviewed before closing an open permit.
+
+
 All of this process is captured within the permit_status column.
 
 Please see the **schema_def.yml** for column definitions (note that both csvs have same column structure).
