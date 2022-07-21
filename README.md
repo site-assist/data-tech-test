@@ -42,11 +42,11 @@ Please see the **schema_def.yml** for column definitions (note that both csvs ha
 3. Define and implement an approach to solve the question above.
 
 ### Second Task
-> **Your second task is to define a permit cycle funnel along with some success metrics to measure it.**
+> **Your second task is to define a permit cycle funnel along with some success metric(s) to measure it.**
 
 ***What we expect?***
 1. Task 1 helped you understand a permit's "life cycle". With those states:
-   - you will now construct a "golden" path where success can be measured with your metrics.
+   - you will now construct a "golden" path where success can be measured with your metric(s).
    - each path's "milestone" can be a collections of states. Try to think of a holistic view first before going into more details.
 2. We should be able to label our data with your funnel. It can then be used for some DS projects as well as for internal reporting.
 3. From your derived metrics, what would you recommend as a first DS project?
