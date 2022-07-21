@@ -39,7 +39,7 @@ Please see the **schema_def.yml** for column definitions (note that both csvs ha
 ***What we expect?***
 1. Analyse the dataset to the best of your capacity. Don’t be afraid to challenge it if you feel it is not complete. 
 2. Create some quick insights and potential visualisation of the data (EDA).
-3. Define and implement an approach to solve the question above.
+3. Define and implement an approach to solve the question above (remember the simpler the better).
 
 ### Second Task
 > **Your second task is to define a permit cycle funnel along with some success metric(s) to measure it.**
