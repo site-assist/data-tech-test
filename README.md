@@ -34,7 +34,7 @@ All of this process is captured within the permit_status column.
 Please see the **schema_def.yml** for column definitions (note that both csvs have the same column structure).
 
 ### First Task
-> **Your first task is to infer at which state within the permit cycle a record is.**
+> **Your first task is to infer at which state (permit_status column) within the permit cycle a record is using only the timestamps and template id columns.**
 
 ***What we expect?***
 1. Analyse the dataset to the best of your capacity. Don’t be afraid to challenge it if you feel it is not complete. 
